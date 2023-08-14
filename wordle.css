@@ -9,14 +9,10 @@ body {
     color: white;
 }
 
-hr {
-    width: 500px;
-}
-
 #title{
     font-size: 120px;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
 
     display: flex;
     justify-content: center;
@@ -32,14 +28,14 @@ hr {
     margin-top: 3px;
     display: flex;
     flex-wrap: wrap;
+    border: 4px solid #ffffff;
 }
 
 .tile {
     /* box */
     width: 60px;
     height: 60px;
-    border: 2.5px solid #ffffff;
-    margin: 2.5px;
+    border: 5px solid #ffffff;
 
     /* text */
     color: black;
@@ -67,7 +63,6 @@ hr {
     color: white;
     border-color:white;
 }
-
 
 .keyboard-row {
     width: 400px;
